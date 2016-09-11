@@ -21,9 +21,15 @@
     <ClCompile Include="Source\Generator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\LoadDistributor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LoadDistributor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
