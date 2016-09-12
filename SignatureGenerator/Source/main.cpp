@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
    try
    {
       if (argc >= 4)
-         NFileSignature::CreateSignature(srcPath, resultPath, static_cast<uintmax_t>(atol(argv[3])) << 10);
+         NFileSignature::CreateSignature(srcPath, resultPath, static_cast<uintmax_t>(atol(argv[3])) << 20);
       else
          NFileSignature::CreateSignature(srcPath, resultPath);
    }

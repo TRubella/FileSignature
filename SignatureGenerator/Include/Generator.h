@@ -16,7 +16,7 @@ namespace NFileSignature
    void CreateSignature(
       const boost::filesystem::path& inFilePath,
       const boost::filesystem::path& outFilePath,
-      uintmax_t blockSize = 1ull << 10);
+      uintmax_t blockSize = 1ull << 20);
 
 } // NFileSignature
 

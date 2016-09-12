@@ -18,6 +18,12 @@ namespace NFileSignature
          const std::function<boost::optional<uintmax_t>()>& predicate
       ) const;
 
+      LoadDistributor(const LoadDistributor&) = delete;
+      void operator=(const LoadDistributor&) = delete;
+
+      LoadDistributor(LoadDistributor&&) = delete;
+      LoadDistributor& operator=(LoadDistributor&&) = delete;
+
    private:
       explicit LoadDistributor(size_t threadsCount);
 
