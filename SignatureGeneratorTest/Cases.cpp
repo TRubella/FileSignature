@@ -1,11 +1,13 @@
 #define BOOST_TEST_MODULE FileSignatureTestModule
 
 #include <chrono>
+#include <iostream>
+
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem/operations.hpp>
+#include <boost/crc.hpp>
 
 #include <Generator.h>
-#include <boost/crc.hpp>
 
 using namespace boost::filesystem;
 using namespace boost::unit_test;
